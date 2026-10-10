@@ -1,0 +1,10 @@
+# Documented research defaults (scripts currently use argparse flags).
+seed: 42
+banks: 3
+batch_size: 256
+epochs: 5
+learning_rate: 0.001
+federated_rounds: 10
+local_epochs: 1
+quorum: 2
+round_timeout_seconds: 30

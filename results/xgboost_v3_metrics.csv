@@ -1,0 +1,2 @@
+model,accuracy,fraud_precision,fraud_recall,fraud_f1,average_precision,roc_auc,threshold,true_negatives,false_positives,false_negatives,true_positives
+XGBoost V3,0.9956292338304008,0.9144800777453839,0.7564308681672026,0.8279806423229212,0.9074801333233187,0.998081561668544,0.9578666090965271,88126,88,303,941

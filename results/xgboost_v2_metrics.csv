@@ -1,0 +1,2 @@
+model,threshold,average_precision,roc_auc,true_negatives,false_positives,false_negatives,true_positives
+XGBoost V2,0.9182544350624084,0.9816283827658574,0.9997801859654798,88098,116,1,1243
