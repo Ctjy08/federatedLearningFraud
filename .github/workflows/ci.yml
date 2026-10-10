@@ -9,4 +9,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
-      - run: python -m pytest -q
+      - name: Run tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}/src
+        run: python -m pytest -q
